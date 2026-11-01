@@ -1,0 +1,14 @@
+{
+  "name": "@incomeengine/edge-pricing-gateway",
+  "version": "1.0.0",
+  "description": "Production Competitor & Market Price Intelligence Edge Gateway",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "ts-node src/demo_runner.ts",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "typescript": "^5.3.3"
+  }
+}

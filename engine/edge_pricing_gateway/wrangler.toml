@@ -1,0 +1,8 @@
+name = "edge-pricing-gateway"
+main = "src/worker.ts"
+compatibility_date = "2026-01-01"
+
+[[d1_databases]]
+binding = "PRICING_DB"
+database_name = "pricing_telemetry_db"
+database_id = "local-pricing-telemetry-db"
